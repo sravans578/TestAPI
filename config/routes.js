@@ -20,7 +20,7 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  'get /test': TestController.test,
+  'get /test': 'TestController.test',
 
 
   /***************************************************************************
